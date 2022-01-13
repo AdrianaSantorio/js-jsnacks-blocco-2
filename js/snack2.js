@@ -10,12 +10,15 @@ se è dispari stampa il numero successivo*/
 console.log('JS OK');
 
 //1
-let number = Math.floor(Math.random() * 100 +1);
+//let number = Math.floor(Math.random() * 100 +1);
+
+//or
+let number = parseInt(prompt('Inserire un numero'));
 
 //2
 while (number % 2) {
    //4
-    number +=1;
+    number += 1;
 }
 
 //5
