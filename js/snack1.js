@@ -15,6 +15,8 @@ Esegui questo programma in due versioni, con il for e con il while.
 
 // console.log(sum);
 
+console.log('JS OK');
+
 let sum = 0;
 let i = 1;
 
