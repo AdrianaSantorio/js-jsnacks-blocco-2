@@ -13,7 +13,7 @@ while (falseNames.length < 3) {
     const falseSurname = surnames[Math.floor(Math.random() * surnames.length)];
     const falseID = falseName + ' ' + falseSurname;
     
-    console.log('false completed');
+    console.log('false name', falseID);
 
     if (!falseNames.includes(falseID)) {
     falseNames.push(falseID);

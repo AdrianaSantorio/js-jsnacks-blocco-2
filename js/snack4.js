@@ -35,11 +35,14 @@ console.log(numbers);
 let sum = 0;
 let i =1;
 
-while (i <numbers.length) {
+while (i < numbers.length) {
     //3, 4
     sum += numbers[i];
     console.log(numbers[i]);
     i += 2;
 }
+
+
+//todo aggiungere la versione con l' if che è quella che ha fatto vedere MArco durante la correzione
 
 console.log(sum);

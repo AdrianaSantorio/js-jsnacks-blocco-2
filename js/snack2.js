@@ -21,5 +21,7 @@ while (number % 2) {
     number += 1;
 }
 
+//todo inserire il ciclo con l' if perchè è quello corretto
+
 //5
 console.log(number);
